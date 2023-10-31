@@ -8,11 +8,11 @@ const ProjectTimeLineCard = props => {
     <div>
       <img
         src={eachtimeline.imageUrl}
-        alt={eachtimeline.projectTitle}
+        alt="project"
         className="projectimgsty"
       />
       <div className="headingcontainer">
-        <h1>{eachtimeline.title}</h1>
+        <h1>{eachtimeline.projectTitle}</h1>
         <div className="iconclockparacont">
           <AiFillCalendar />
           <p>{eachtimeline.duration}</p>
